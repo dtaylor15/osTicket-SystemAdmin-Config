@@ -58,14 +58,36 @@ Arrive at Roles: Admin panel -> Agents -> Add new role -> Name the role -> Set t
 <p>
 Arrive at Departments: Admin panel -> Agents -> Department -> Complete fields based on your organization. 
 
-For this example I created a System Administration Department and made myself the manager. I provided this department with  full control of the ticketing system. I set my schedule to 24/7 to allow access during non-operation hours, for emergencies.
+For this example, I created a System Administration Department and made myself the manager. I provided this department with  full control of the ticketing system. I set my schedule to 24/7 to allow access during non-operation hours, for emergencies.
 </p>
 <br />
 
+### Configure Helpdesk Teams
+>**Note:**
+>Teams organizes helpdesk employees from various departments enabling them to address specific issues or users via Help Topics or Ticket Filters.
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="958" alt="ost_teams" src="https://github.com/dtaylor15/osTicket-SystemAdmin-Config/assets/101889571/ecce4b04-77ba-4a73-9ee3-ff08290e39f8">
+
+<img width="682" alt="addteams" src="https://github.com/dtaylor15/osTicket-SystemAdmin-Config/assets/101889571/2f04a73b-0ce8-4977-80a1-9e33c0d18674">
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+<p> Arrive at Teams: Admin panel -> Agents -> Add new team -> Name your team -> Save changes
+
+For this example, I added two teams: Level 1 suppport and Level 2 support (not shown).
 </p>
 <br />
+
+### Configure Helpdesk Agents
+>**Notes**
+>osTicket Agents are the helpdesk employees. They service each ticket submitted to the system.
+
+<p> 
+
+https://github.com/dtaylor15/osTicket-SystemAdmin-Config/assets/101889571/10c18eca-d9ef-44f5-be29-867fa3dad46e
+</p>
+
+<p> Arrive at Agents: Admin panel -> Agents -> Add new agent -> Enter employee creditials -> Set password -> Set -> Access -> Configure department -> Configure Permissions and Teams applicable to your organization.
+
+For this example, I set a passowrd for this sample agent so I can log in and tutorial a ticket lifecycle. However, standard operations in many organizations require the agent to set their own password at intial log in. <p/>
