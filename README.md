@@ -121,7 +121,7 @@ For this example I used service levels (severity) SEV-A, SEV-B, SEV-C with SEV-A
 
 <p> Arrive at Help Topics: Admin Panel -> Manage -> Help Topics -> Add new help topic -> Configure according to your organization's standards.
 
-For this example, I used three topics: Business Critical Outage, Personal Computer Issues, Equipment Request, and Password Reset. I configured "Business Critical Outage" tickets to be automatically categorized with a SEV-A SLA plan. These types of tickets are automatically assigned to the system admin.  </p>
+For this example, I used three topics: Business Critical Outage, Personal Computer Issues, Equipment Requests, and Password Reset. I configured "Business Critical Outage" tickets to be automatically categorized with a SEV-A SLA plan. These types of tickets are automatically assigned to the system admin.  </p>
 
 <br />
 
@@ -135,5 +135,9 @@ https://github.com/dtaylor15/osTicket-SystemAdmin-Config/assets/101889571/a7c718
 
 </p>
 
-<p> Arrive at Users: Agent panel -> Users -> Add new user -> input user's credentials -> Register -> Set a password or enable the user to set one theirselves. </p>
+<p> Arrive at Users: Agent panel -> Users -> Add new user -> input user's credentials -> Register -> Set a password or enable the user to set one themselves. </p>
+
+
+### osTicket - System Administration Configuration Complete!👏🏾
+Continue to [Ticket lifecycle examples.]()
 
